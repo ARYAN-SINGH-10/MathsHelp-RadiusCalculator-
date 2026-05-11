@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle.io | Radius Calculator</title>
+    <style>
+        /* INLINE CSS TO BYPASS CACHING ISSUES */
+        :root {
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --primary: #2563eb;
+            --text-heading: #0f172a;
+            --text-body: #475569;
+            --border: #e2e8f0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', system-ui, sans-serif; }
+        body { background-color: var(--bg); color: var(--text-body); min-height: 100vh; display: flex; justify-content: center; align-items: center; }
+        .container { width: 100%; max-width: 400px; padding: 20px; }
+        header { text-align: center; margin-bottom: 32px; }
+        header h1 { font-size: 2rem; color: var(--primary); font-weight: 800; }
+        .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 32px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        .form-title { font-size: 1.25rem; font-weight: 700; color: var(--text-heading); margin-bottom: 24px; text-align: center; }
+        .form-group { margin-bottom: 20px; }
+        .form-group label { display: block; font-size: 0.875rem; font-weight: 600; color: var(--text-heading); margin-bottom: 8px; }
+        .input-field { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 1rem; outline: none; transition: border-color 0.2s; }
+        .input-field:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1); }
+        .btn { width: 100%; padding: 12px; background-color: var(--primary); color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 700; cursor: pointer; transition: opacity 0.2s; }
+        .btn:hover { opacity: 0.9; }
+        footer { margin-top: 24px; text-align: center; color: #94a3b8; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Circle.io</h1>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2 class="form-title">Radius Calculator</h2>
+                <form action="Area1" method="GET">
+                    <div class="form-group">
+                        <label for="radius">Enter Radius (cm)</label>
+                        <input type="number" step="any" id="radius" name="radius" class="input-field" placeholder="e.g. 5.0" required autofocus>
+                    </div>
+                    <button type="submit" class="btn">Calculate Area</button>
+                </form>
+            </div>
+        </main>    
+
+        <footer>
+            <p>&copy; 2024 Circle Geometry Tools</p>
+        </footer>
+    </div>
+</body>
+</html>
