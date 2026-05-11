@@ -62,16 +62,7 @@ To run this project locally, follow these steps:
 
 ---
 
-## 📸 Screenshots
 
-| Home Page | Result Page |
-|-----------|-------------|
-| ![Home](https://raw.githubusercontent.com/ARYAN-SINGH-10/Java-Circle-Calculator/main/screenshots/home.png) | ![Result](https://raw.githubusercontent.com/ARYAN-SINGH-10/Java-Circle-Calculator/main/screenshots/result.png) |
-
-> [!NOTE]
-> Screenshots are placeholders. Please add your actual screenshots to the `screenshots/` folder in your repository.
-
----
 
 ## 📄 License
 
