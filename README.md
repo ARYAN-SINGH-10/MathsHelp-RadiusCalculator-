@@ -1,3 +1,5 @@
+<div align="center">
+
 # ⭕ Circle.io - Advanced Geometry Calculator
 
 [![Deployment Status](https://img.shields.io/badge/Status-Live_on_Render-success?style=for-the-badge&logo=render)](https://java-circle-calculator.onrender.com/)
@@ -8,19 +10,9 @@
 
 ---
 
-## ✨ Features
+### 🛠️ Tech Stack
 
-- 🎯 **Precision Computing:** Real-time area calculation using high-precision constants.
-- 🎨 **Minimalist UI:** Clean, corporate Material Design for a professional user experience.
-- 📱 **Fully Responsive:** Optimized for mobile, tablet, and desktop viewing.
-- 🚀 **Cloud Native:** Ready for immediate deployment via Docker and Render.
-- ⚡ **Zero-Cache Architecture:** Optimized CSS delivery for instant UI updates.
-
----
-
-## 🛠️ Tech Stack
-
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/Servlet-v4.0-blue?style=for-the-badge&logo=java&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -28,6 +20,18 @@
   <img src="https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
+
+---
+
+</div>
+
+## ✨ Features
+
+- 🎯 **Precision Computing:** Real-time area calculation using high-precision constants.
+- 🎨 **Minimalist UI:** Clean, corporate Material Design for a professional user experience.
+- 📱 **Fully Responsive:** Optimized for mobile, tablet, and desktop viewing.
+- 🚀 **Cloud Native:** Ready for immediate deployment via Docker and Render.
+- ⚡ **Zero-Cache Architecture:** Optimized CSS delivery for instant UI updates.
 
 ---
 
